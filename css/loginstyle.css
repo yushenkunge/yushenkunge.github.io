@@ -1,0 +1,73 @@
+body
+{
+	margin: 0;
+	padding:0;
+	background:url(../img/c.jpg);
+	background-size:cover;
+	background-position:center;
+	font-family:sans-serif;
+}
+.loginbox
+{
+	width: 320;
+	height: 400;
+	background-color:rgb(3,4,35);
+	color: #fff;
+	top:50%;
+	left: 80%;
+	position: absolute;
+	/*transform 属性向元素应用 2D 或 3D 转换。*/
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 20px 20px;
+}
+
+h1
+{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size: 22px;
+}
+.loginbox p
+{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.loginbox input
+{
+	width:100%;
+	margin-bottom:20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background: transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+.loginbox a
+{
+	text-decoration:none;
+	font-size:20px;
+	line-height:40px;
+	color:white;
+}
+.loginbox a:hover
+{
+	color:#ffc107;
+}
+
+
+.inputBox input:focus ~ label,
+.inputBox input:valid ~ label
+{
+top: -18px;
+left: 0;
+color: #808080s;
+font-size: 12px;
+} 

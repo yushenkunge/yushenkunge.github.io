@@ -1,0 +1,27 @@
+h2, p {
+  text-align: center;
+  color:#F00;
+}
+
+body{
+	background-color:rgb(28,16,28);
+	}
+
+/*满天星*/
+audio{
+    z-index: 5;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.1;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+}
+audio:hover{
+    opacity: 1;
+}
+img {
+  max-width:100%;
+}
